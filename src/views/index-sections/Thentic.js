@@ -1,4 +1,6 @@
 import React from "react";
+// reactstrap components
+import { Button } from "reactstrap";
 
 function Thentic() {
   return(
