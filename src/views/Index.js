@@ -39,6 +39,7 @@ import SectionDark from "views/index-sections/SectionDark.js";
 import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
+import Thentic from "views/index-sections/Thentic.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -53,6 +54,7 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
+        <Thentic />
         {/* <SectionButtons />
         <SectionNavbars />
         <SectionNavigation /> */}

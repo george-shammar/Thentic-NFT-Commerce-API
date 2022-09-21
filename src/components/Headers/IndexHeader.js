@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Button, Container } from "reactstrap";
 
 // core components
 
@@ -21,6 +21,16 @@ function IndexHeader() {
           <Container>
             <div className="title-brand">
               <h1 className="presentation-title">Thentic API DEMO</h1>
+
+              <Button
+                className="btn-round"
+                color="danger"
+                href=""
+                target="_blank"
+              >
+                <i className="nc-icon nc-spaceship"></i> Mint
+              </Button>
+
               <div className="fog-low">
                 <img alt="..." src={require("assets/img/fog-low.png")} />
               </div>
