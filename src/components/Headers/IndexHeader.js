@@ -7,6 +7,11 @@ import { Button, Container } from "reactstrap";
 // core components
 
 function IndexHeader() {
+
+  function mint() {
+      console.log("Thentic");
+  }
+
   return (
     <>
       <div
@@ -25,8 +30,7 @@ function IndexHeader() {
               <Button
                 className="btn-round"
                 color="danger"
-                href=""
-                target="_blank"
+                onClick = {() => mint()}
               >
                 <i className="nc-icon nc-spaceship"></i> Mint
               </Button>
